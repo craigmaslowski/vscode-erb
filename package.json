@@ -1,0 +1,25 @@
+{
+	"name": "erb",
+	"description": "Syntax Highlighting for Ruby ERB files",
+	"version": "0.0.1",
+	"publisher": "Craig Maslowski",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Languages"
+	],
+	"contributes": {
+		"languages": [{
+			"id": "erb",
+			"aliases": ["Ruby ERB", "erb"],
+			"extensions": [".erb",".rhtml",".html.erb"],
+			"configuration": "./erb.configuration.json"
+		}],
+		"grammars": [{
+			"language": "erb",
+			"scopeName": "text.html.erb",
+			"path": "./syntaxes/erb.tmLanguage"
+		}]
+	}
+}
