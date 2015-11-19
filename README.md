@@ -1,1 +1,1 @@
-Syntax highlighting for ERB files
+An extension that provices syntax highlighting for Ruby ERB files in Visual Studio Code
